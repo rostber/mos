@@ -11,6 +11,7 @@
 @import url("layout/footer.css");
 
 @import url("other/blog.css");
+@import url("other/checkout-prop.css");
 @import url("other/rating.css");
 @import url("other/social.css");
 @import url("other/paint.css");
@@ -19,7 +20,6 @@ html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 100%;
   color: #272727;
-  background-color: #f0f0f0;
   font-size: 14px;
   line-height: 2.4em;
 }

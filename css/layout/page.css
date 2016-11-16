@@ -1,3 +1,9 @@
+.page {
+  background-color: #f0f0f0;
+}
+.page_color_white {
+	background-color: #fff;
+}
 .page__title {
   font-size: 28px;
   font-weight: bold;
