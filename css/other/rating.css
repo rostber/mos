@@ -1,0 +1,28 @@
+.rating__value {
+  float: left;
+  width: 59px;
+  height: 59px;
+  line-height: 59px;
+  font-size: 28px;
+  margin: 0 24px 8px 12px;
+  background-color: #ffd700;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.rating__value:after {
+  content: '';
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  left: -13px;
+  top: 50%;
+  margin-top: -10px;
+  background-image: url('../../images/rating-arrow.png');
+}
+.rating__content {
+  font-size: 15px;
+  line-height: 1.73;
+  overflow: hidden;
+  padding: 4px 0;
+}

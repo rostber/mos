@@ -1,0 +1,42 @@
+@import url("common/btn.css");
+@import url("common/clearfix.css");
+@import url("common/center.css");
+@import url("common/form.css");
+@import url("common/hidden.css");
+@import url("common/post.css");
+
+@import url("layout/page.css");
+@import url("layout/header.css");
+@import url("layout/navi.css");
+@import url("layout/footer.css");
+
+@import url("other/blog.css");
+@import url("other/rating.css");
+@import url("other/social.css");
+@import url("other/paint.css");
+
+html, body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 100%;
+  color: #272727;
+  background-color: #f0f0f0;
+  font-size: 14px;
+  line-height: 2.4em;
+}
+
+i, em {
+  font-style: italic;
+}
+a, .link {
+  text-decoration: none;
+  color: #e66148;
+  outline-style: none;
+  cursor: pointer;
+}
+a:hover, .link:hover {
+  text-decoration: underline;
+}
+
+b, strong {
+  font-weight: bold;
+}

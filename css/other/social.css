@@ -1,0 +1,25 @@
+.social {
+  
+}
+.social__item {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin-right: 19px;
+  margin-left: 8px;
+  background-image: url('../../images/social.png');
+  background-repeat: no-repeat;
+}
+.social__item_type_fb {
+  background-position: 5px 0;
+}
+.social__item_type_tw {
+  background-position: -48px 0;
+}
+.social__item_type_vk {
+  background-position: -100px 0;
+}
+.social__item_type_in {
+  background-position: -158px 0;
+  margin-left: 13px;
+}

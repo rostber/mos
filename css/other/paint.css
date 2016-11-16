@@ -1,0 +1,96 @@
+.paint {
+  margin-top: -30px;
+}
+.paint__head {
+  background: url('../../images/paint.jpg') center bottom repeat;
+  color: #fff;
+}
+.paint__head-inside {
+  position: relative;
+  height: 284px;
+}
+.paint__head-title {
+  font-size: 28px;
+  font-weight: bold;
+  padding: 30px 0 0 0;
+}
+.paint__head-text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  position: absolute;
+  left: 0;
+  bottom: 48px;
+  width: 100%;
+}
+.paint__head-discont {
+  display: inline-block;
+  background-color: #e33d1e;
+  padding: 0 2px;
+}
+.paint__content {
+  margin-top: -18px;
+}
+.paint__form {
+  background-color: #e6e6e6;
+  padding: 18px 9px 29px 9px;
+}
+.paint__form-text {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.4;
+  color: #000000;
+  padding-top: 20px;
+}
+.paint__cost {
+}
+.paint__cost-title {
+  font-size: 28px;
+  margin-top: 33px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+.paint__cost-table-wrap {
+  margin: 0 -19px 52px -19px;
+}
+.paint__cost-table {
+  font-size: 14px;
+  width: 100%;
+}
+.paint__cost-cell {
+  padding: 12px 19px;
+}
+.paint__cost-cell_align_right {
+  text-align: right;
+}
+.paint__cost-row_type_event .paint__cost-cell {
+  background-color: #d8d8d8;
+}
+.paint__label {
+  font-size: 21px;
+  line-height: 1.2em;
+  max-width: 340px;
+  margin: 0 auto 10px auto;
+  font-weight: bold;
+}
+.paint__palette {
+  background: url('../../images/paint.png') center center no-repeat;
+  background-size: 100% 100%;
+  width: 340px;
+  height: 340px;
+  margin: 0 auto 50px auto;
+  font-size: 0;
+  text-align: center;
+  line-height: 340px;
+}
+.paint__palette-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  line-height: 1.8em;
+  font-style: italic;
+}
+.paint__palette-text b, .paint__palette-text strong {
+  font-style: normal;
+  font-weight: bold;
+}

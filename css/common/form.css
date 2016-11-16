@@ -1,0 +1,113 @@
+.form {
+	position: relative;
+}
+.form__row {
+	margin-bottom: 15px;
+}
+.form__group {
+	font-size: 0;
+	position: relative;
+	display: block;
+}
+.form__group_type_inline {
+	display: inline-block;
+	margin-right: 2px;
+	vertical-align: top;
+}
+.form__group_type_inline:last-child {
+	margin-right: 0;
+}
+.form__select {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	display: block;
+}
+.form__input {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	border: 2px solid #f0f0f0;
+	height: 38px;
+	outline-style: none;
+	border-radius: 23px;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+.form__textarea {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	display: block;
+	width: 100%;
+	border: 2px solid #f0f0f0;
+	background-color: #fff;
+	height: 129px;
+	outline-style: none;
+	resize: none;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 14px;
+	box-sizing: border-box;
+}
+.form__checkbox {
+	font-size: 14px;
+	line-height: 1.22em;
+	padding: 0 0 0 26px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+}
+.form__checkbox-icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 18px;
+	height: 18px;
+	background: url('/images/checkbox.png') 0 0 no-repeat;
+}
+.form__checkbox-input:checked + .form__checkbox-icon {
+	background-position: 0 100%;
+}
+.form__checkbox-input {
+	display: block;
+	position: absolute;
+	left: -9999em;
+	width: 1px;
+	height: 1px;
+}
+.form__radio {
+	font-size: 14px;
+	line-height: 1.22em;
+	padding: 0 0 0 23px;
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	margin-right: 12px;
+}
+.form__radio_type_points {
+	line-height: 1.75em;
+}
+.form__radio_type_points .form__radio-icon {
+	top: 5px;
+}
+.form__radio-icon {
+	position: absolute;
+	left: 0;
+	top: 2px;
+	width: 14px;
+	height: 14px;
+	background: url('../../images/radio.png') 0 0 no-repeat;
+}
+.form__radio-input:checked + .form__radio-icon {
+	background-position: 0 100%;
+}
+.form__radio-input {
+	display: block;
+	position: absolute;
+	left: -9999em;
+	width: 1px;
+	height: 1px;
+}
+.form__radio-wrap {
+	padding-top: 11px;
+}

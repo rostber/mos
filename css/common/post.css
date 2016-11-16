@@ -1,0 +1,77 @@
+.post {
+  font-size: 15px;
+  line-height: 1.73;
+}
+
+.post h1 { font-size: 28px; }
+.post h2 { font-size: 18px; }
+.post h3 { font-size: 16px; }
+.post h4 { font-size: 14px; }
+.post h5 { font-size: 12px; }
+.post h6 { font-size: 10px; }
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+	font-weight: 600;
+	line-height: 1.22em;
+	text-transform: uppercase;
+}
+
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post hr, .post ul, .post ol {
+	margin: 1.8em 0 1.8em 0;
+}
+
+.post hr {
+	border-color: #7e7f84;
+}
+
+.post ul li {
+	padding: 0 0 0 20px;
+	background: transparent url('/images/marker.png') 8px 8px no-repeat;
+	list-style: none;
+	margin-bottom: 6px;
+}
+.post ul li:last-child {
+	margin-bottom: 0;
+}
+
+.post {
+	font-family: 'Open Sans', sans-serif;
+}
+.post img {
+	margin: 5px 10px 5px 0;
+}
+.post img[align=right] {
+	margin: 5px 0 5px 10px;
+}
+
+.post a {
+	color: #e66148;
+}
+
+.post table {
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+}
+.post td {
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: left;
+}
+.post th {
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.post .default, .post .default th, .post .default td {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+.post .red {
+	color: #ce2c02;
+}
+
+.post_type_paint {
+  line-height: 21px;
+  font-family: Georgia;
+}

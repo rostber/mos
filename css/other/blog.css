@@ -1,0 +1,41 @@
+.blog__item {
+  padding: 3px 0 23px 0;
+}
+.blog__date {
+  font-size: 14px;
+  line-height: 1.86;
+  color: #7b7b7b;
+  margin-bottom: 9px;
+}
+.blog__title {
+  font-size: 18px;
+  line-height: 1.44;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+.blog__text {
+  font-family: Georgia;
+  font-size: 15px;
+  line-height: 1.73;
+  margin-bottom: 10px;
+}
+.blog__link {
+  color: #e33d1e;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 1.73;
+  font-weight: bold;
+}
+.blog__link:hover {
+  text-decoration: underline;
+}
+.blog__article-date {
+  font-size: 14px;
+  line-height: 1.86;
+  color: #7b7b7b;
+  margin: -11px 0 3px 0;
+}
+.blog__article-text {
+  font-family: Georgia;
+  font-size: 15px;
+}

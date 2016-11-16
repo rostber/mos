@@ -1,0 +1,60 @@
+.header {
+	background-color: #252525;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.header__inside {
+	display: table;
+	width: 100%;
+}
+.header__toggle {
+	background-color: #464545;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	background-position: center center;
+	background-repeat: no-repeat;
+	transition: all linear 0.2s;
+	background-color: #464545;
+	position: relative;
+}
+.header__toggle:hover {
+	background-color: #292929;
+}
+.header__toggle_type_menu {
+	float: left;
+  background-image: url('../../images/menu-toggle.png');
+}
+.header__toggle_type_cart {
+	float: right;
+  background-image: url('../../images/cart.png');
+}
+.header__toggle-num {
+	border-radius: 100%;
+	font-size: 13px;
+	font-weight: bold;
+	color: #252525;
+  background-color: #ffd700;
+  position: absolute;
+  right: 4px;
+  top: 9px;
+  text-align: center;
+  width: 26px;
+  height: 22px;
+  line-height: 24px;
+  overflow: hidden;
+}
+.header__content {
+  text-align: center;
+  padding: 3px 0 0 0;
+}
+.header__phone {
+  font-size: 22px;
+  font-weight: bold;
+}
+.header__address {
+  margin-top: -10px;
+  font-size: 13px;
+}

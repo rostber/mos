@@ -1,0 +1,130 @@
+.navi {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  display: none;
+}
+.navi_state_show {
+  display: block;
+}
+.navi_state_show:after {
+  display: block;
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 299px;
+  background-color: #252525;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+  z-index: 105;
+}
+.navi__overlay {
+  opacity: 0.8;
+  background-color: #464545;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.navi__drop {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  max-width: 299px;
+  height: 100%;
+  background-color: #252525;
+  z-index: 110;
+}
+.navi__item {
+  font-size: 16px;
+  line-height: 1.93;
+}
+.navi__item-count {
+  font-size: 11px;
+  color: #818181;
+}
+.navi__link {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all linear 0.2s;
+}
+.navi__link:hover, .navi__link_state_current {
+  color: #e03e02;
+  text-decoration: none;
+}
+.navi__close {
+  background: url('../../images/close.png') 0 0 no-repeat;
+  position: absolute;
+  left: 23px;
+  top: 19px;
+  width: 17px;
+  height: 17p;
+  cursor: pointer;
+}
+.navi__content {
+  padding: 36px 0 0 41px;
+}
+.navi__section {
+  padding: 19px 36px 19px 0;
+  border-bottom: 1px solid #979797;
+}
+.navi__section:last-child {
+  border-style: none;
+}
+.navi__search {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-radius: 4px;
+  background-color: #252525;
+  border: solid 1px #626262;
+  font-size: 14px;
+  padding-left: 16px;
+  height: 46px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  color: #fff;
+  transition: all linear 0.2s;
+}
+.navi__search-wrap {
+  position: relative;
+  display: block;
+}
+.navi__search-wrap:after, .navi__search-wrap:before {
+  content: '';
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -7px;
+  margin-right: 14px;
+  background-image: url('../../images/sprites.png');
+  background-position: -178px -34px;
+  opacity: 1;
+  transition: all linear 0.2s;
+}
+.navi__search-wrap:before {
+  opacity: 0;
+  background-position: -192px -34px;
+}
+.navi__search-wrap_state_focus:before {
+  opacity: 1;
+}
+.navi__search-wrap_state_focus:after {
+  opacity: 0;
+}
+.navi__search-wrap_state_focus .navi__search {
+  border-color: #fff;
+}
+.navi__logo {
+  margin-bottom: 18px;
+  display: block;
+}
