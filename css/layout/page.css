@@ -14,3 +14,40 @@
 .page__section {
   padding-bottom: 30px;
 }
+.page__up {
+  display: block;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  border-radius: 5px;
+  z-index: 50;
+  overflow: hidden;
+}
+.page__up:after {
+  content: '';
+  background: url('../../images/up.png') center center no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+}
+.page__up:before {
+  content: '';
+  background-color: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.66;
+  z-index: 2;
+  transition: all linear 0.2s;
+}
+.page__up:hover:before {
+  opacity: 0.9;
+}

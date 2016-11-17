@@ -92,6 +92,9 @@
 .form__textarea:focus {
 	border-color: #333;
 }
+.form__textarea_height_100 {
+  height: 100px;
+}
 .form__checkbox {
   font-size: 14px;
   font-weight: bold;

@@ -1,3 +1,5 @@
+@import url("libs/jquery.bxslider.css");
+
 @import url("common/btn.css");
 @import url("common/clearfix.css");
 @import url("common/center.css");
@@ -11,10 +13,17 @@
 @import url("layout/footer.css");
 
 @import url("other/blog.css");
+@import url("other/cart.css");
 @import url("other/checkout-prop.css");
+@import url("other/home-cont.css");
+@import url("other/home-intro.css");
+@import url("other/home-main.css");
+@import url("other/map.css");
 @import url("other/rating.css");
 @import url("other/social.css");
 @import url("other/paint.css");
+@import url("other/prod-preview.css");
+@import url("other/qnt.css");
 
 html, body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

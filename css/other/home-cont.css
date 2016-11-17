@@ -1,0 +1,47 @@
+.home-cont {
+  background-color: #000;
+  color: #ffffff;
+  margin-top: -30px;
+  margin-bottom: 30px;
+  padding: 17px 0 9px 0;
+}
+.home-cont__head {
+  width: 100%;
+  display: table;
+  margin: 0 0 9px 0;
+}
+.home-cont__head-phone {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 27px;
+}
+.home-cont__head-action {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+}
+.home-cont__head-action-link {
+  color: #e33d1e;
+  text-decoration: none;
+}
+.home-cont__head-action-link:hover {
+  text-decoration: underline;
+}
+.home-cont__main {
+  width: 100%;
+  display: table;
+  font-size: 14px;
+}
+.home-cont__main-phone {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: left;
+}
+.home-cont__main-address {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}

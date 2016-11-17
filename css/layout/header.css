@@ -50,6 +50,10 @@
   text-align: center;
   padding: 3px 0 0 0;
 }
+.header__content_type_home {
+  height: 60px;
+  background: url('../../images/logo_home.png') 77px center no-repeat;
+}
 .header__phone {
   font-size: 22px;
   font-weight: bold;

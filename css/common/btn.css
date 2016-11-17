@@ -1,18 +1,18 @@
 .btn {
 	display: inline-block;
 	cursor: pointer;
-	border: 2px solid #d23002;
-	background-color: #d23002;
-	color: #fff;
-	font-size: 14px;
-	line-height: 41px;
+  background-color: #ffffff;
+  border: 1px solid #dc3b1d;
+	color: #e7430b;
+  font-size: 16px;
+  line-height: 41px;
+  font-weight: bold;
 	padding: 0 23px;
-	border-radius: 23px;
+	border-radius: 41px;
 	transition: all linear 0.2s;
 	text-decoration: none;
 	outline-style: none;
 	text-align: center;
-	min-width: 181px;
 }
 .btn:hover {
 	background-color: #1a1a1a;
@@ -20,4 +20,17 @@
 	color: #fff;
 	text-decoration: none;
 	outline-style: none;
+}
+.btn_display_block {
+  display: block;
+}
+.btn_color_brack {
+	background-color: #1a1a1a;
+	border-color: #1a1a1a;
+ 	color: #fff;
+}
+.btn_color_red {
+	background-color: #e33d1e;
+	border-color: #e33d1e;
+ 	color: #fff;
 }
