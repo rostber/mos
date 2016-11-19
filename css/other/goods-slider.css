@@ -1,0 +1,26 @@
+.goods-slider__item {
+  height: 238px;
+  text-align: center;
+}
+.goods-slider__item-inside {
+  padding: 46px 0 0 0;
+}
+.goods-slider__title {
+  font-size: 16px;
+  line-height: 1.69;
+}
+.goods-slider__sub-title {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.8;
+}
+.goods-slider__ico {
+  width: 56px;
+  height: 49px;
+  margin: 0 auto;
+  background-image: url('../../images/sprites.png');
+  margin-top: 16px;
+}
+.goods-slider__ico_type_plane {
+  background-position: -210px -255px;
+}

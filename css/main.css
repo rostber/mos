@@ -13,12 +13,17 @@
 @import url("layout/footer.css");
 
 @import url("other/blog.css");
+@import url("other/bxslider.css");
 @import url("other/cart.css");
 @import url("other/checkout-prop.css");
+@import url("other/callback.css");
 @import url("other/home-cont.css");
 @import url("other/home-intro.css");
 @import url("other/home-main.css");
+@import url("other/filter.css");
 @import url("other/map.css");
+@import url("other/goods.css");
+@import url("other/goods-slider.css");
 @import url("other/rating.css");
 @import url("other/social.css");
 @import url("other/paint.css");

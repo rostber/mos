@@ -83,14 +83,7 @@
   
 <?php include('include/footer.php'); ?>
 
-  <span class="page__up">&nbsp;</span>
-
 <?php include('include/assets.php'); ?>
-<script>
-$(function() {
- $('.bxslider').bxSlider();
-});
-</script>
 
 	</body>
 </html>

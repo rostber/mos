@@ -34,3 +34,18 @@
 	border-color: #e33d1e;
  	color: #fff;
 }
+.btn_color_b-white-red {
+  border: solid 1px #ffffff;
+  background-color: #ea4600;
+  color: #fff;
+}
+.btn_color_b-white-red:hover {
+	background-color: #1a1a1a;
+	border-color: #1a1a1a;
+	color: #fff;
+	text-decoration: none;
+	outline-style: none;
+}
+.btn_height_48 {
+  line-height: 48px;
+}

@@ -1,0 +1,39 @@
+.filter {
+  background-color: #ffffff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.08);
+  font-size: 0;
+  padding: 11px 0 10px 0;
+}
+.filter__left {
+	float: left;
+}
+.filter__right {
+	float: right;
+}
+.filter__link {
+	font-size: 15px;
+	line-height: 29px;
+  border-radius: 100px;
+  border: 1px solid transparent;
+  color: #272727;
+  font-weight: bold;
+  padding: 0 14px;
+  display: inline-block;
+  vertical-align: top;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  text-decoration: none;
+}
+.filter__link_state_current, .filter__link:hover {
+  background-color: #feea68;
+  text-decoration: none;
+  border: solid 1px #e5d35f;
+}
+.filter__toggle {
+	display: inline-block;
+	vertical-align: top;
+	width: 22px;
+	height: 31px;
+	background: url('../../images/filter.svg') center center no-repeat;
+	cursor: pointer;
+}

@@ -15,7 +15,7 @@
   padding-bottom: 30px;
 }
 .page__up {
-  display: block;
+  display: none;
   width: 56px;
   height: 56px;
   cursor: pointer;
@@ -25,6 +25,7 @@
   border-radius: 5px;
   z-index: 50;
   overflow: hidden;
+  
 }
 .page__up:after {
   content: '';
@@ -50,4 +51,20 @@
 }
 .page__up:hover:before {
   opacity: 0.9;
+}
+.page__more {
+  font-size: 16px;
+  line-height: 66px;
+  background-color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  color: #e03e02;
+  display: block;
+  text-decoration: none;
+  transition: all linear 0.2s;
+}
+.page__more:hover {
+  text-decoration: none;
+	background-color: #1a1a1a;
+  color: #fff;
 }
