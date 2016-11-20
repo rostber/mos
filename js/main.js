@@ -1,6 +1,11 @@
 $(function() {
 	init_navi();
   init_scrolltop();
+  init_map();
+	init_slider();
+});
+
+function init_slider() {
 	$('.bxslider').each(function() {
     var $el = $(this);
     var options = {
@@ -9,7 +14,13 @@ $(function() {
     if ($el.data('class')) options.wrapperClass = 'bx-wrapper ' + $el.data('class');
     $el.bxSlider(options);
   });
-});
+}
+
+function init_map() {
+	$('.map__toggle').click(function() {
+		$('.map__content').slideToggle(250);
+	});
+}
 
 function init_scrolltop() {
   var $el = $('.page__up');

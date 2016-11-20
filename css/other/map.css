@@ -1,4 +1,4 @@
-.map {
+.map__header {
   background-color: #000;
   color: #fff;
   padding: 8px 0;
@@ -18,4 +18,37 @@
   height: 6px;
   background: url('../../images/map-toggle.png') 0 0 no-repeat;
   margin-left: 18px;
+}
+.map__content {
+	padding: 9px 0 0 0;
+	display: none;
+}
+.map__content a {
+  color: #323232;
+  text-decoration: none;
+}
+.map__content a:hover {
+  text-decoration: underline;
+}
+.map__content ul {
+	margin: 14px 0;
+}
+.map__content ul li {
+	margin: 12px 0;
+}
+.map__content ul li ul {
+	margin: 14px 0 22px 0;
+}
+.map__content ul li ul li {
+	margin: 0;
+}
+.map__content ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.15;
+}
+.map__content ul li ul li a {
+  font-size: 14px;
+  line-height: 2.36;
+  font-weight: normal;
 }
