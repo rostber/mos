@@ -19,6 +19,7 @@ function init_slider() {
 function init_map() {
 	$('.map__toggle').click(function() {
 		$('.map__content').slideToggle(250);
+		$('html, body').delay(100).animate({scrollTop: $('.map__content').offset().top}, 250);
 	});
 }
 

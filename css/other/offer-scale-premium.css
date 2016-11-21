@@ -1,0 +1,69 @@
+.offer-scale-premium_list{
+  margin-bottom: 10px
+}
+.offer-scale-premium_item{
+  background: #f6f6f6;
+  margin-bottom: 2px;
+  font-size: 15px;
+  line-height: 1.2;
+}
+.offer-scale-premium_item_l-col{
+  float: left;
+  color: #FFFFFF;
+  width: 50%;
+  padding-right: 12px;
+  box-sizing: border-box;
+}
+.offer-scale-premium_item_r-col{
+  float: right;
+  text-align: right;
+  color: #999999;
+  width: 50%;
+  padding: 6px 8px 2px 0;
+  box-sizing: border-box;
+}
+.offer-scale-premium_item_name{
+  display: inline-block;
+  width: 100%;
+  background: #12ff12;
+  padding: 6px 0 2px 8px;
+  position: relative;
+  box-sizing: border-box;
+}
+.offer-scale-premium_item_name:after{
+  content: '';
+  position: absolute;
+  border-left: 13px solid #12ff12;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
+  right: -12px;
+  top: 0;
+}
+.offer-scale-premium_item_name__c-1{background:#68a216}
+.offer-scale-premium_item_name__c-1:after{border-left:13px solid #68a216}
+.offer-scale-premium_item_name__c-2{background:#b8cb40}
+.offer-scale-premium_item_name__c-2:after{border-left:13px solid #b8cb40}
+.offer-scale-premium_item_name__c-3{background:#e99520}
+.offer-scale-premium_item_name__c-3:after{border-left:13px solid #e99520}
+.offer-scale-premium_item_name__c-4{background:#e5561f}
+.offer-scale-premium_item_name__c-4:after{border-left:13px solid #e5561f}
+.offer-scale-premium_item__1-4 .offer-scale-premium_item_l-col{width:37%}
+.offer-scale-premium_item__1-4 .offer-scale-premium_item_r-col{width:63%}
+.offer-scale-premium_item__2-4 .offer-scale-premium_item_l-col{width:44%}
+.offer-scale-premium_item__2-4 .offer-scale-premium_item_r-col{width:56%}
+.offer-scale-premium_item__3-4 .offer-scale-premium_item_l-col{width:52%}
+.offer-scale-premium_item__3-4 .offer-scale-premium_item_r-col{width:48%}
+.offer-scale-premium_item__4-4 .offer-scale-premium_item_l-col{width:58%
+}.offer-scale-premium_item__4-4 .offer-scale-premium_item_r-col{width:42%}
+.offer-scale-premium_item__active{
+  background: #ffd800;
+}
+.offer-scale-premium_item__active .offer-scale-premium_item_r-col{
+  font-weight: 900;
+}
+.offer-available{
+  float: left;
+  font-size: 13px;
+  font-weight: 900;
+  color: #7c9b02;
+}

@@ -3,7 +3,7 @@
   overflow: hidden;
   max-width: 375px;
   height: 375px;
-  margin: -30px auto 0 auto;
+  margin: -30px auto 24px auto;
   color: #fff;
 }
 .prod-preview__discont {
@@ -51,26 +51,7 @@
   line-height: 23px;
   font-weight: bold;
   margin-left: 5px;
-}
-.prod-preview__navi {
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
-  white-space: nowrap;
-  font-size: 0;
-}
-.prod-preview__navi-item {
-  display: inline-block;
-  width: 24px;
-  height: 6px;
-  overflow: hidden;
-  cursor: pointer;
-  background-color: #d8d8d8;
-  margin-right: 6px;
-  transition: all linear 0.2s;
-}
-.prod-preview__navi-item_state_current, .prod-preview__navi-item:hover {
-  background-color: #ea4600;
+  z-index: 20;
 }
 .prod-preview__actions {
   position: absolute;
@@ -78,4 +59,5 @@
   bottom: 16px;
   white-space: nowrap;
   font-size: 0;
+  height: 23px;
 }

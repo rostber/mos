@@ -1,0 +1,33 @@
+.reviews__label {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #756d6d;
+  overflow: hidden;
+}
+.reviews__value {
+  float: right;
+  background-image: url('../../images/stars.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  width: 82px;
+  height: 15px;
+  overflow: hidden;
+}
+.reviews__value_state_0 {
+  width: 0;
+}
+.reviews__value_state_1 {
+  width: 16px;
+}
+.reviews__value_state_2 {
+  width: 32px;
+}
+.reviews__value_state_3 {
+  width: 48px;
+}
+.reviews__value_state_4 {
+  width: 64px;
+}
+.reviews__value_state_5 {
+  width: 80px;
+}

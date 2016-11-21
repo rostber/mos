@@ -24,9 +24,14 @@
 @import url("other/goods.css");
 @import url("other/goods-slider.css");
 @import url("other/rating.css");
+@import url("other/reviews.css");
 @import url("other/social.css");
 @import url("other/paint.css");
+@import url("other/prod-cont.css");
+@import url("other/prod-navi.css");
 @import url("other/prod-preview.css");
+@import url("other/prod-info.css");
+@import url("other/offer-scale-premium.css");
 @import url("other/qnt.css");
 
 html, body {

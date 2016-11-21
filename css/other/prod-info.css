@@ -1,0 +1,74 @@
+.prod-info__title {
+  font-size: 21px;
+  line-height: 1.23;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+.prod-info__sub-title {
+  font-size: 14px;
+  line-height: 1.57;
+}
+.prod-info__head {
+  margin-bottom: 12px;
+}
+.prod-info__avalible, .prod-info__no-avalible {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  color: #18aa00;
+  margin-bottom: 10px;
+}
+.prod-info__no-avalible {
+  color: #e33d1e;
+}
+.prod-info__cost {
+  font-size: 39px;
+  line-height: 0.56;
+  margin: 24px 0 10px 0;
+}
+.prod-info__cost-value {
+  display: inline-block;
+  vertical-align: baseline;
+  margin-right: 27px;
+}
+.prod-info__cost-old-value {
+  display: inline-block;
+  vertical-align: baseline;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #989898;
+  text-decoration: line-through;
+}
+.prod-info__discont {
+  background: url('../../images/discont.png') left center no-repeat;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #e33d1e;
+  padding: 10px 0 10px 41px;
+  margin-bottom: 20px;
+}
+.offer-sale-count-wrap {
+    margin-bottom: 14px;
+}
+.prod-info__count {
+  margin-bottom: 14px;
+}
+.prod-info__count-text {
+  background: #ffd800;
+  font-size: 15px;
+  line-height: 1.2;
+  color: #252525;
+  font-weight: 900;
+  display: inline-block;
+  padding: 5px 4px;
+}
+.prod-info__count-value {
+  font-weight: bold;
+  font-style: italic;
+}
+.prod-info__garante {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  margin: 23px 0 31px 0;
+}

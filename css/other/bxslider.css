@@ -22,3 +22,8 @@
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus {
   background-color: #ff3f00;
 }
+.bx-wrapper_type_product .bx-pager {
+  text-align: left; 
+  left: 20px;
+  bottom: 13px;
+}
