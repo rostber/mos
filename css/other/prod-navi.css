@@ -20,6 +20,9 @@
   text-decoration: none;
   position: relative;
 }
+.prod-navi__item:hover {
+	text-decoration: none;
+}
 .prod-navi__item:before {
   content: '';
   background-image: url('../../images/prod-navi.png');

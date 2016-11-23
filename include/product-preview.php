@@ -13,11 +13,6 @@
     </ul>
   </div>
   <div class="prod-preview__discont">-5%</div>
-  <div class="prod-preview__navi">
-    <div class="prod-preview__navi-item prod-preview__navi-item_state_current">&nbsp;</div>
-    <div class="prod-preview__navi-item">&nbsp;</div>
-    <div class="prod-preview__navi-item">&nbsp;</div>
-  </div>
   <div class="prod-preview__actions">
     <span class="prod-preview__btn">
       <a href="#" class="prod-preview__ico prod-preview__ico_type_best">&nbsp;</a>

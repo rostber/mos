@@ -39,12 +39,15 @@
 	position: relative;
 	display: block;
 }
-.form__group_type_inline {
+.form__group_type_inline, .form__group_type_inline-m {
 	display: inline-block;
 	margin-right: 2px;
 	vertical-align: top;
 }
-.form__group_type_inline:last-child {
+.form__group_type_inline-m {
+	margin-right: 35px;
+}
+.form__group_type_inline:last-child, .form__group_type_inline-m:last-child {
 	margin-right: 0;
 }
 .form__select {

@@ -27,3 +27,12 @@
   left: 20px;
   bottom: 13px;
 }
+.bx-wrapper_type_draw .bx-pager {
+  bottom: auto;
+  top: 100%;
+	padding-top: 0;
+	margin-top: -3px;
+}
+.bx-wrapper_type_draw .bx-pager.bx-default-pager a {
+  background-color: #acacac;
+}

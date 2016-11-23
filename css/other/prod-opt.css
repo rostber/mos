@@ -1,0 +1,72 @@
+.prod-opt {
+	background-color: #f0f0f0;
+	padding: 31px 0 0 0;
+}
+.prod-opt__title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.38;
+  margin-bottom: 22px;
+}
+.prod-opt__total {
+	overflow: hidden;
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 43px;
+}
+.prod-opt__action {
+	float: right;
+}
+
+.prod-opt__table {
+	display: table;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.prod-opt__row {
+	display: table-row;
+	background: url('../../images/dots.png') left bottom repeat-x;
+	cursor: pointer;
+}
+.prod-opt__row:hover, .prod-opt__row:hover .prod-opt__text, 
+.prod-opt__row_state_act, .prod-opt__row_state_act .prod-opt__text {
+  background-color: #e14d21;
+  color: #fff;
+}
+.prod-opt__text {
+	display: inline-block;
+	background-color: #f0f0f0;
+}
+.prod-opt__label {
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: left;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #434343;
+  padding: 9px 0 10px 0;
+  border-bottom: 5px solid #f0f0f0;
+}
+.prod-opt__label .prod-opt__text {
+	padding-right: 5px;
+	padding-left: 19px;
+}
+.prod-opt__value {
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: right;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: bold;
+  padding: 9px 0 10px 0;
+  border-bottom: 5px solid #f0f0f0;
+}
+.prod-opt__value .prod-opt__text {
+	padding-left: 5px;
+	padding-right: 19px;
+}
+.prod-opt__radio {
+	display: block;
+	position: absolute;
+	visibility: hidden;
+}

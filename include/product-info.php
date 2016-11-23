@@ -41,10 +41,10 @@
     
     <form action="#" method="post" class="form">
       <div class="form__row form__row_margin_13">
-        <div class="form__group form__group_type_inline">
+        <div class="form__group form__group_type_inline-m">
           <label class="form__radio"><input type="radio" name="type" checked="checked" class="form__radio-input" value="1"><span class="form__radio-icon"></span>Поворот направо</label>
         </div>
-        <div class="form__group form__group_type_inline">
+        <div class="form__group form__group_type_inline-m">
           <label class="form__radio"><input type="radio" name="type" checked="checked" class="form__radio-input" value="1"><span class="form__radio-icon"></span>Поворот налево</label>
         </div>
       </div>

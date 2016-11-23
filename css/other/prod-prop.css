@@ -1,0 +1,51 @@
+.prod-prop {
+	padding: 32px 0 0 0;
+}
+.prod-prop__title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.38;
+  margin-bottom: 29px;
+}
+.prod-prop__table {
+	display: table;
+	width: 100%;
+}
+.prod-prop__row {
+	display: table-row;
+	background: url('../../images/dots.png') left bottom repeat-x;
+}
+.prod-prop__label {
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: left;
+  font-size: 14px;
+  line-height: 1.57;
+  color: #434343;
+  padding: 1px 0 10px 0;
+}
+.prod-prop__label .prod-prop__text {
+	display: inline-block;
+	background-color: #fff;
+	padding-right: 5px;
+}
+.prod-prop__value {
+	display: table-cell;
+	vertical-align: bottom;
+	text-align: right;
+  font-size: 14px;
+  line-height: 1.57;
+  font-weight: bold;
+  padding: 1px 0 10px 0;
+}
+.prod-prop__value .prod-prop__text {
+	display: inline-block;
+	background-color: #fff;
+	padding-left: 5px;
+}
+.prod-prop__img {
+	width: 100%;
+	max-width: 375px;
+	margin: 12px auto 0 auto;
+	display: block;
+}
