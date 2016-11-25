@@ -25,7 +25,7 @@ function init_map() {
 
 function init_scrolltop() {
   var $el = $('.page__up');
-  $(document).on('scroll', function() {
+  $(document).on('scroll.top', function() {
     var top = $(document).scrollTop();
     if (top > 100) {
       if (!$el.is(':visible')) $el.stop().fadeIn(250);

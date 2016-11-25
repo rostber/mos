@@ -1,0 +1,52 @@
+.prod-articles__title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.38;
+  margin-bottom: 16px;
+}
+.prod-articles__title-link {
+  text-decoration: none;
+  color: #141414;
+}
+.prod-articles__title-link:hover {
+  text-decoration: underline;
+}
+.prod-articles__preview {
+  display: block;
+  margin: 0 auto 17px auto;
+  max-width: 335px;
+  width: 100%;
+}
+.prod-articles__video-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  margin-bottom: 11px;
+}
+.prod-articles__video-channel {
+  display: block;
+  text-decoration: none;
+  background: url('../../images/yt.jpg') left center no-repeat;
+  color: #808080;
+  padding: 0 0 0 81px;
+  font-size: 0;
+  line-height: 68px;
+}
+.prod-articles__video-channel-text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  line-height: 1.29;
+}
+.prod-articles__item {
+  border-bottom: 2px solid #f0f0f0;
+  padding: 11px 0 31px 0;
+}
+.prod-articles__more-link {
+  font-weight: bold;
+}
+.prod-articles__text {
+  font-size: 14px;
+  line-height: 1.59;
+  margin-bottom: 12px;
+}

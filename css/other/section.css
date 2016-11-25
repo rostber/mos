@@ -1,0 +1,25 @@
+.section {
+	border-bottom: 2px solid #f0f0f0;
+	padding: 26px 0 41px 0;
+}
+.section_color_gray {
+	background-color: #f0f0f0;
+	border-style: none;
+}
+.section__title {
+	font-size: 16px;
+	line-height: 1.38;
+	margin-bottom: 30px;
+  font-weight: bold;
+}
+.section__text {
+  font-size: 14px;
+  line-height: 1.57;
+  margin-top: -6px;
+  margin-bottom: 21px;
+}
+.section__middle {
+  font-size: 16px;
+  line-height: 1.38;
+  text-align: center;
+}

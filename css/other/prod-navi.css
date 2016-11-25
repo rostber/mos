@@ -1,15 +1,17 @@
 .prod-navi {
   height: 60px;
-  background-color: #f6f6f6;
+  position: relative;
+  z-index: 50;
 }
-.prod-navi__content {
+.prod-navi__relative {
   position: relative;
   top: 0;
   left: 0;
-}
-.prod-navi_type_fixed {
-  position: fixed;
   width: 100%;
+  background-color: #f6f6f6;
+}
+.prod-navi_type_fixed .prod-navi__relative {
+  position: fixed;
 }
 .prod-navi__item {
   width: 16.666%;

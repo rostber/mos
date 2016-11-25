@@ -1,0 +1,49 @@
+.rate {
+	margin-bottom: 3px;
+}
+.rate:last-child {
+	margin-bottom: 0;
+}
+.rate__label {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #434343;
+	margin-bottom: 16px;
+}
+.rate__line {
+	float: left;
+	width: 100%;
+	max-width: 300px;
+	height: 6px;
+	background-size: 100% 100px;
+	background-image: url('../../images/rate.png');
+	background-repeat: no-repeat;
+}
+.rate__line_state_0 {
+	background-position: 0 -45px;
+}
+.rate__line_state_1 {
+	background-position: 0 -36px;
+}
+.rate__line_state_2 {
+	background-position: 0 -27px;
+}
+.rate__line_state_3 {
+	background-position: 0 -18px;
+}
+.rate__line_state_4 {
+	background-position: 0 -9px;
+}
+.rate__line_state_5 {
+	background-position: 0 0;
+}
+.rate__value {
+	overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.57;
+  color: #000000;
+  padding-left: 16px;
+  position: relative;
+  top: -9px;
+}

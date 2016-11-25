@@ -1,0 +1,38 @@
+.files {
+	margin: -5px 0 -13px 0;
+}
+.files__item {
+	margin-bottom: 9px;
+}
+.files__item:last-child {
+	margin-bottom: 0;
+}
+.files__ico {
+	width: 68px;
+	float: left;
+}
+.files__ico-img {
+	width: 43px;
+	height: 61px;
+}
+.files__content {
+	overflow: hidden;
+	padding: 3px 0 0 0;
+}
+.files__link {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.38;
+  color: #e33d1e;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 4px;
+}
+.files__link:hover {
+	text-decoration: underline;
+}
+.files__info {
+  font-size: 12px;
+  line-height: 1.5;
+  color: #666666;
+}

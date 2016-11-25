@@ -49,3 +49,11 @@
 .btn_height_48 {
   line-height: 48px;
 }
+.btn__hint {
+  font-size: 14px;
+  line-height: 1.57;
+  color: #a0a0a0;
+}
+.btn_weight_bold {
+	font-weight: bold;
+}

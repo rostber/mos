@@ -14,12 +14,15 @@
 @import url("other/blog.css");
 @import url("other/bxslider.css");
 @import url("other/cart.css");
+@import url("other/colors.css");
+@import url("other/comments.css");
 @import url("other/checkout-prop.css");
 @import url("other/callback.css");
 @import url("other/home-cont.css");
 @import url("other/home-intro.css");
 @import url("other/home-main.css");
 @import url("other/filter.css");
+@import url("other/files.css");
 @import url("other/map.css");
 @import url("other/goods.css");
 @import url("other/goods-slider.css");
@@ -27,13 +30,18 @@
 @import url("other/reviews.css");
 @import url("other/social.css");
 @import url("other/paint.css");
+@import url("other/prod-articles.css");
+@import url("other/prod-buy.css");
 @import url("other/prod-cont.css");
 @import url("other/prod-draw.css");
+@import url("other/prod-like.css");
 @import url("other/prod-navi.css");
 @import url("other/prod-preview.css");
 @import url("other/prod-prop.css");
 @import url("other/prod-opt.css");
 @import url("other/prod-info.css");
+@import url("other/section.css");
+@import url("other/rate.css");
 @import url("other/offer-scale-premium.css");
 @import url("other/qnt.css");
 

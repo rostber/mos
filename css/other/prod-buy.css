@@ -1,0 +1,21 @@
+.prod-buy__title {
+	text-align: center;
+  font-size: 16px;
+  line-height: 1.38;
+  margin-bottom: 31px;
+  font-weight: bold;
+}
+.prod-buy {	
+	border-bottom: 2px solid #f0f0f0;
+	padding: 32px 0 46px 0;
+}
+.prod-buy__row {
+	display: table;
+	width: 100%;
+	margin: 18px -7px;
+}
+.prod-buy__cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 7px;
+}
