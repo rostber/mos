@@ -15,17 +15,61 @@
     </div>
     
 		<div class="filter">
-			<div class="center">
-				<div class="clearfix">
-					<div class="filter__left">
-						<a href="#" class="filter__link filter__link_state_current">Все</a>
-						<a href="#" class="filter__link">Готовые</a>
-						<a href="#" class="filter__link">На заказ</a>
-					</div>
-					<div class="filter__right">
-						<span class="filter__toggle">&nbsp;</span>
-					</div>
-				</div>
+      <div class="filter__content">
+        <div class="center">
+          <div class="clearfix">
+            <div class="filter__left">
+              <a href="#" class="filter__link filter__link_state_current">Все</a>
+              <a href="#" class="filter__link">Готовые</a>
+              <a href="#" class="filter__link">На заказ</a>
+            </div>
+            <div class="filter__right">
+              <span class="filter__toggle js-filter-handle-show">&nbsp;</span>
+              
+              <div class="modal js-filter">
+                <div class="modal__overlay">&nbsp;</div>
+                <div class="modal__body">
+                  <div class="center">
+                    <div class="modal__content">
+                      <div class="modal__close js-filter-handle-hide">&nbsp;</div>
+                      <div class="modal__title">Фильтрация результатов</div>
+                      <form action="#" method="post" class="form">
+                        <div class="modal__group">
+                          <div class="modal__group-title">Цена</div>
+                          <div class="filter-cost js-slider" data-min="0" data-max="50000">
+                            <input type="hidden" name="min_val" class="js-slider-min" value="5000" />
+                            <input type="hidden" name="max_val" class="js-slider-max" value="10000" />
+                          </div>
+                        </div>
+                        <div class="modal__group">
+                          <div class="modal__group-title">Показать</div>
+                          <div class="filter">
+                            <a href="#" class="filter__link filter__link_state_current">Все</a>
+                            <a href="#" class="filter__link">Готовые</a>
+                            <a href="#" class="filter__link">На заказ</a>
+                          </div>
+                        </div>
+                        <div class="modal__group">
+                          <div class="modal__group-title">Сортировка</div>
+                          <label class="form__select">
+                            <select name="type" class="form__select-field">
+                              <option value="1">Вперемешку</option>
+                            </select>
+                          </label>
+                        </div>
+                        <div class="modal__action">
+                          <button type="submit" class="btn btn_color_red btn_height_59 btn_width_whole">Применить</button>
+                        </div>
+                      </form>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
 			</div>
 		</div>
 		

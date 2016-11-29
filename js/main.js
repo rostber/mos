@@ -3,7 +3,44 @@ $(function() {
   init_scrolltop();
   init_map();
 	init_slider();
+  init_ui_slider();
+  init_filter();
 });
+
+function init_filter() {
+  $('.js-filter-handle-show').click(function() {
+    $('.js-filter').show();
+  });
+  $('.js-filter-handle-hide').click(function() {
+    $('.js-filter').hide();
+  });
+}
+
+function init_ui_slider() {
+  $('.js-slider').each(function() {
+    var $el = $(this);
+    var min = $el.data('min');
+    var max = $el.data('max');
+    var min_val = $el.find('.js-slider-min').val();
+    var max_val = $el.find('.js-slider-max').val();
+    $el.slider({
+      range: true,
+      min: min,
+      max: max,
+      values: [ min_val, max_val ],
+      slide: function( event, ui ) {
+        $el.find('.js-slider-min').val( ui.values[ 0 ] );
+        $el.find('.js-slider-max').val( ui.values[ 1 ] );
+        $el.find('.ui-slider-handle').eq(0).html('<span class="ui-slider-handle-cost">'+ui.values[ 0 ]+'&nbsp;Р</span>');
+        $el.find('.ui-slider-handle').eq(1).html('<span class="ui-slider-handle-cost">'+ui.values[ 1 ]+'&nbsp;Р</span>');
+      },
+      create: function( event, ui ) {
+        $el.find('.ui-slider-handle').eq(0).html('<span class="ui-slider-handle-cost">'+min_val+'&nbsp;Р</span>');
+        $el.find('.ui-slider-handle').eq(1).html('<span class="ui-slider-handle-cost">'+max_val+'&nbsp;Р</span>');
+      }
+    });
+  });
+}
 
 function init_slider() {
 	$('.bxslider').each(function() {

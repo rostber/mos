@@ -1,4 +1,5 @@
 @import url("libs/jquery.bxslider.css");
+@import url("libs/jquery-ui.min.css");
 
 @import url("common/btn.css");
 @import url("common/clearfix.css");
@@ -22,8 +23,10 @@
 @import url("other/home-intro.css");
 @import url("other/home-main.css");
 @import url("other/filter.css");
+@import url("other/filter-cost.css");
 @import url("other/files.css");
 @import url("other/map.css");
+@import url("other/modal.css");
 @import url("other/goods.css");
 @import url("other/goods-slider.css");
 @import url("other/rating.css");

@@ -24,6 +24,11 @@
 .btn_display_block {
   display: block;
 }
+.btn_width_whole {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
 .btn_color_brack {
 	background-color: #1a1a1a;
 	border-color: #1a1a1a;
@@ -48,6 +53,10 @@
 }
 .btn_height_48 {
   line-height: 48px;
+}
+.btn_height_59 {
+  height: 59px;
+  font-size: 17px;
 }
 .btn__hint {
   font-size: 14px;
