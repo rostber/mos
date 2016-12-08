@@ -12,20 +12,22 @@
 .post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
 	font-weight: 600;
 	line-height: 1.22em;
-	text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post hr, .post ul, .post ol {
-	margin: 1.8em 0 1.8em 0;
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post p, .post ul, .post ol {
+	margin: 20px 0;
 }
 
 .post hr {
-	border-color: #7e7f84;
+  border-style: none;
+  border-top: 1px solid #d3d3d3;
+  margin: 40px 0;
 }
 
 .post ul li {
-	padding: 0 0 0 20px;
-	background: transparent url('/images/marker.png') 8px 8px no-repeat;
+	padding: 0 0 0 35px;
+	background: transparent url('/images/marker.png') 8px 5px no-repeat;
 	list-style: none;
 	margin-bottom: 6px;
 }
@@ -54,12 +56,30 @@
 .post td {
 	border-right: 1px solid #000;
 	border-bottom: 1px solid #000;
-	text-align: left;
 }
 .post th {
 	border-right: 1px solid #000;
 	border-bottom: 1px solid #000;
 }
+.post table.tbl {
+	border-style: none;
+  width: 100%;
+}
+.post .tbl td {
+	border-style: none;
+  padding: 27px 20px;
+}
+.post .tbl th {
+	border-style: none;
+  padding: 27px 20px;
+}
+.post .tbl__even td, .post .tbl__even th {
+  background-color: #e6e6e6;
+}
+.post .tbl__right {
+  text-align: right;
+}
+
 
 .post .default, .post .default th, .post .default td {
 	margin: 0;
@@ -78,4 +98,9 @@
 .post_type_goods {
 	font-size: 13px;
   line-height: 22px;
+}
+.post_type_buy {
+	font-size: 15px;
+  line-height: 26px;
+  font-family: Georgia;
 }

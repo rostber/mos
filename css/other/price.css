@@ -1,0 +1,55 @@
+.price {
+  background: #e6e6e6;
+  margin-bottom: 30px;
+}
+.price__item {
+}
+.price__item-label {
+  display: table;
+  width: 100%;
+}
+.price__item-name {
+  display: table-cell;
+  font-size: 20px;
+  font-weight: 900;
+  padding: 37px 10px 34px 20px;
+  border-bottom: 2px solid #fff;
+}
+.price__item-cost {
+  display: table-cell;
+  text-align: right;
+  font-weight: 900;
+  padding: 37px 20px 34px 10px;
+  border-bottom: 2px solid #fff;
+}
+.price__item-childs {
+  background: #e1e0e0;
+  overflow: hidden;
+}
+.price__item-childs .price__item-name {
+  padding: 27px 20px 24px 10px;
+  border-bottom: 1px solid #fff;
+  font-size: 15px;
+}
+.price__item-childs .price__item-cost {
+  padding: 27px 10px 24px 20px;
+  border-bottom: 1px solid #fff;
+  font-size: 15px;
+}
+.price__item_state_hide .price__item-label, .price__item_state_show .price__item-label {
+  cursor: pointer;
+}
+.price__item_state_hide .price__item-label:hover, .price__item_state_show .price__item-label:hover {
+  background: #e1e0e0;
+}
+.price__item_state_hide .price__item-childs {
+  display: none;
+}
+.price__item_state_hide > .price__item-label > .price__item-name:after {
+  content: '↓';
+  margin-left: 10px;
+}
+.price__item_state_show > .price__item-label > .price__item-name:after {
+  content: '↑';
+  margin-left: 10px;
+}

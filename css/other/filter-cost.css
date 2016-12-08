@@ -33,15 +33,17 @@
 .filter-cost .ui-slider-range {
   background: #de3a1a;
 }
-.ui-slider-handle-cost {
+.ui-slider-handle-cost-min, .ui-slider-handle-cost-max {
   position: absolute;
   bottom: 100%;
-  left: 50%;
+  left: 0;
   font-size: 15px;
   line-height: 1.47;
-  text-align: center;
   color: #272727;
-  width: 100px;
-  margin-left: -50px;
-  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 5px;
+}
+.ui-slider-handle-cost-max {
+  left: auto;
+  right: 0;
 }

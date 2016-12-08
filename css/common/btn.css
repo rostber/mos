@@ -13,6 +13,7 @@
 	text-decoration: none;
 	outline-style: none;
 	text-align: center;
+  box-sizing: border-box;
 }
 .btn:hover {
 	background-color: #1a1a1a;
@@ -57,6 +58,10 @@
 .btn_height_59 {
   height: 59px;
   font-size: 17px;
+}
+.btn_width_240 {
+  width: 100%;
+  max-width: 240px;
 }
 .btn__hint {
   font-size: 14px;

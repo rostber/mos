@@ -5,6 +5,9 @@
   background: url('../../images/paint.jpg') center bottom repeat;
   color: #fff;
 }
+.paint__head_type_buy {
+  text-align: center;
+}
 .paint__head-inside {
   position: relative;
   height: 284px;
@@ -34,6 +37,16 @@
 .paint__form {
   background-color: #e6e6e6;
   padding: 18px 9px 29px 9px;
+}
+.paint__form-row {
+  text-align: center;
+  margin: 30px 0;
+}
+.paint__form-row:first-child {
+  margin-top: 0;
+}
+.paint__form-row:last-child {
+  margin-bottom: 0;
 }
 .paint__form-text {
   font-size: 15px;
@@ -93,4 +106,23 @@
 .paint__palette-text b, .paint__palette-text strong {
   font-style: normal;
   font-weight: bold;
+}
+.paint__contacts {
+  background: #000 url('../../images/contacts_bg.jpg') center center no-repeat;
+  background-size: auto 100%;
+  background-size: cover;
+  color: #fff;
+  font-family: Georgia;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+  padding: 43px 0 48px 0;
+}
+.paint__map {
+  height: 400px;
+  display: block;
+  background-color: #eee;
+  margin: 30px 0;
+  overflow: hidden;
 }

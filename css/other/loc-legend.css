@@ -1,0 +1,55 @@
+.loc-legend {
+  
+}
+.loc-legend__row {
+  display: table;
+  width: 100%;
+  margin: 14px 0;
+}
+.loc-legend__name {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.loc-legend__name:before {
+  content: '';
+  display: inline-block;
+  margin-right: 8px;
+  width: 21px;
+  height: 21px;
+  border-radius: 21px;
+  line-height: 21px;
+  vertical-align: middle;
+  background-color: #000;
+  position: relative;
+  top: -1px;
+}
+.loc-legend__cost {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 21px;
+  font-style: italic;
+}
+.loc-legend__name_color_1:before {
+  background-color: #73a86f;
+}
+.loc-legend__name_color_2:before {
+  background-color: #a3b85d;
+}
+.loc-legend__name_color_3:before {
+  background-color: #e3aa59;
+}
+.loc-legend__name_color_4:before {
+  background-color: #dd936a;
+}
+.loc-legend__name_color_5:before {
+  background-color: #cbb1da;
+}
+.loc-legend__name_color_6:before {
+  background-color: #f8f7f7;
+}

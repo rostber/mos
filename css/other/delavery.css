@@ -1,0 +1,92 @@
+.delavery__step {
+  position: relative;
+}
+.delavery__step:after {
+  content: '';
+  left: 35px;
+  display: block;
+  position: absolute;
+  width: 2px;
+  top: 0;
+  bottom: 0;
+  left: 36px;
+  background-color: #aaa;
+  z-index: 5;
+}
+.delavery__step:last-child:after {
+  display: none;
+}
+
+.delavery__num {
+  float: left;
+  width: 71px;
+  height: 71px;
+  padding-top: 14px;
+  border-width: 3px;
+  border-style: solid;
+  text-align: center;
+  background-color: #f0f0f0;
+  border-radius: 36px;
+  box-sizing: border-box;
+  z-index: 10;
+  position: relative;
+}
+.delavery__digit {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+}
+.delavery__caption {
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1;
+}
+.delavery__text {
+  overflow: hidden;
+  padding-left: 24px;
+}
+.delavery__text-bord {
+  padding: 10px 15px 22px 10px;
+  position: relative;
+  border-radius: 12px;
+  border: 1px solid #c3c3c3;
+  margin-bottom: 30px;
+}
+.delavery__text-bord:after {
+  right: 100%;
+  background-position: -15px -299px;
+  content: "";
+  display: block;
+  position: absolute;
+  width: 13px;
+  height: 23px;
+  background-image: url('../../images/sprites.png');
+  background-repeat: no-repeat;
+  top: 25px;
+}
+.delavery__step_color_1 .delavery__num {
+  border-color: #d2d2d2;
+}
+.delavery__step_color_1:after {
+  background-color: #d2d2d2;
+}
+.delavery__step_color_2 .delavery__num {
+  border-color: #e2a253;
+}
+.delavery__step_color_2:after {
+  background-color: #e2a253;
+}
+.delavery__step_color_3 .delavery__num {
+  border-color: #e9d420;
+}
+.delavery__step_color_3:after {
+  background-color: #e9d420;
+}
+.delavery__step_color_4 .delavery__num {
+  border-color: #a9be1b;
+}
+.delavery__step_color_4:after {
+  background-color: #a9be1b;
+}

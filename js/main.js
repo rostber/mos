@@ -5,6 +5,7 @@ $(function() {
 	init_slider();
   init_ui_slider();
   init_filter();
+  $('.tbl tr:even').addClass('tbl__even');
 });
 
 function init_filter() {
@@ -31,12 +32,12 @@ function init_ui_slider() {
       slide: function( event, ui ) {
         $el.find('.js-slider-min').val( ui.values[ 0 ] );
         $el.find('.js-slider-max').val( ui.values[ 1 ] );
-        $el.find('.ui-slider-handle').eq(0).html('<span class="ui-slider-handle-cost">'+ui.values[ 0 ]+'&nbsp;Р</span>');
-        $el.find('.ui-slider-handle').eq(1).html('<span class="ui-slider-handle-cost">'+ui.values[ 1 ]+'&nbsp;Р</span>');
+        $el.find('.ui-slider-handle-cost-min').html(ui.values[ 0 ]+'&nbsp;Р');
+        $el.find('.ui-slider-handle-cost-max').html(ui.values[ 1 ]+'&nbsp;Р');
       },
       create: function( event, ui ) {
-        $el.find('.ui-slider-handle').eq(0).html('<span class="ui-slider-handle-cost">'+min_val+'&nbsp;Р</span>');
-        $el.find('.ui-slider-handle').eq(1).html('<span class="ui-slider-handle-cost">'+max_val+'&nbsp;Р</span>');
+        $el.append('<span class="ui-slider-handle-cost-min">'+min_val+'&nbsp;Р</span>');
+        $el.append('<span class="ui-slider-handle-cost-max">'+max_val+'&nbsp;Р</span>');
       }
     });
   });

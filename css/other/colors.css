@@ -1,6 +1,9 @@
 .colors {
 	margin: 0 0 -6px 0;
 }
+.colors_type_norma {
+  margin-bottom: 30px;
+}
 .colors__list {
 	margin: 0 -11px 2px -11px;
 	text-align: center;
